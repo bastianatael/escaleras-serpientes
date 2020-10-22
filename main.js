@@ -65,8 +65,8 @@ class Tablero {
 
 let dado = new Dado();
 let tablero = new Tablero();
-let j1 = new Jugador('Gabino');
-let j2 = new Jugador('Laura');
+let j1 = new Jugador('Bastian');
+let j2 = new Jugador('José');
 
 while (j1.posicion <= 100 && j2.posicion <= 100) {
     j1.posicion = tablero.vCasilla(j1.avanzar(dado.lanzar()));
